@@ -9,7 +9,7 @@ import "dotenv/config";
 
 const zilliqaMainnet: NetworkUserConfig = {
   url: "https://api.zilliqa.com/",
-  chainId: 1,
+  chainId: 32769,
   accounts: [process.env.KEY_MAINNET!],
 };
 
