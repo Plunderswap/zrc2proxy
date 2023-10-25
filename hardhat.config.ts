@@ -6,6 +6,7 @@ import "hardhat-abi-exporter";
 import "hardhat-contract-sizer";
 import "solidity-coverage";
 import "dotenv/config";
+import "@xtools-at/hardhat-sourcify";
 
 const zilliqaMainnet: NetworkUserConfig = {
   url: "https://api.zilliqa.com/",

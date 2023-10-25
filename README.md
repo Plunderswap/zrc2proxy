@@ -26,3 +26,6 @@
 yarn deploy:testnet
 yarn deploy:mainnet
 ```
+
+## Verifying contracts on sourcify.dev
+`npx hardhat --network testnet verify-sourcify --contract EIP20ZRC2Proxy --address 0x453b11386FBd54bC532892c0217BBc316fc7b918`

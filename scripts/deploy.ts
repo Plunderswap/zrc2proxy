@@ -29,7 +29,7 @@ const main = async () => {
   console.log("Deploying EIP20ZRC2Proxy..");
   const plunderZrc2Proxy = await ethers.getContractFactory("EIP20ZRC2Proxy");
   const zrc2Proxy = await plunderZrc2Proxy.deploy(
-    "0x18e1ad84cda23b28f33a7c47c0b672069f59733d"
+    "0xb8950d4d6baf479749d4152fc60fad86195eb0b2"
   );
   await zrc2Proxy.deployed();
 
