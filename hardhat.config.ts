@@ -13,12 +13,12 @@ const config: HardhatUserConfig = {
   networks: {
     "zq-testnet": {
       url: "https://dev-api.zilliqa.com",
-      accounts: [process.env.PRIVATE_KEY ?? ""],
+      accounts: [process.env.KEY_TESTNET ?? ""],
       chainId: 33101,
     },
     zq: {
       url: "https://api.zilliqa.com",
-      accounts: [process.env.PRIVATE_KEY ?? ""],
+      accounts: [process.env.KEY_MAINNET ?? ""],
       chainId: 32769,
     },
     "local-proxy": {
