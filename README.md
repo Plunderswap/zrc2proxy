@@ -1,5 +1,12 @@
 # ERC20ProxyForZRC2 Contract
 
+NOTE this is an unedited fork from https://github.com/Zilliqa/zilliqa-developer/tree/c9a723dfdd0555b4876de83562c63950301d3ea6/contracts/experimental/ERC20ProxyForZRC2
+
+This repo was created before zilliqa-developer existed.  the zrc2 proxy is written by Zilliqa.
+
+If you want to create ZRC2 proxies, fork the official one.
+
+
 These contracts allow ZRC-2 tokens to look like ERC-20 tokens.
 
 Unless you want to build using the `zilliqa-developer` version of `zilliqa-js`, or you encounter missing modules issues while running tests, install our dependencies with:
