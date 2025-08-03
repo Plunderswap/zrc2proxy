@@ -7,12 +7,15 @@ This repo was created before zilliqa-developer existed.  the zrc2 proxy is writt
 If you want to create ZRC2 proxies, fork the official one.
 
 
+NOTE: if using windows, use WSL.
+
 These contracts allow ZRC-2 tokens to look like ERC-20 tokens.
 
 Unless you want to build using the `zilliqa-developer` version of `zilliqa-js`, or you encounter missing modules issues while running tests, install our dependencies with:
 
 ```shell
 pnpm --ignore-workspace i
+pnpm exec hardhat compile
 ```
 
 ## Deploying a proxy
